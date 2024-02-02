@@ -1,0 +1,104 @@
+/**------------------------------------------------------------------------
+                                    ABOUT
+        Hoja de estilo de polloempanado.html
+        Autor: Sergio Ramos Alarón
+        Versión: 3.0
+        Fecha: Octubre de 2023
+        Comentario: Trabajo de lenguajes de marcas
+ *------------------------------------------------------------------------**/
+
+/* colores de la página web */
+
+/*  buscar un par de fuentes que combinen, para títulos y para contenido */
+
+@font-face {
+    font-family: "texto";
+    src: url(../font/Libertarian.ttf);
+}
+
+@font-face {
+    font-family: "titulos";
+    src: url(../font/FjallaOne-Regular.ttf);
+    }
+
+/* titulos */
+
+#title-font {
+    font-family: "titulos";
+}
+
+/* texto */
+
+#text-font {
+    font-family: 'texto'
+}
+
+/* blockquote */
+
+.border-left-brown{
+    border-left: 4px solid #A03E11 !important; /* si no pongo el important el bootstrap hace lo que quiere */
+}
+
+/* text */
+
+.text-brown-title{
+    color: #D1701D;
+}
+
+.text-brown{
+    color: rgb(180, 120, 30);
+}
+
+.bg-brown.title{
+    background-color: #D1701D;
+}
+
+.bg-text-brown {
+    background-color: #DDCFBD;
+}
+
+
+/* body */
+
+.bg-image {
+    background-image: url(../img/mantel.jpg);
+}
+
+.m-10 {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.p-e-75 {
+    padding-right: 75px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* ul */
+
+.bg-image-ul {
+    list-style-image: url(../img/bullet_ball_yellow.png);
+}
+
+
+#wrapper {
+    margin: auto;
+}
+
+.mt--40{
+    margin-top: -40px;
+}
+
+/* video */
+
+p-table {
+    padding: 20% !important;
+}
+
+#video iframe {
+    width: 100% !important;
+    height: 500px !important;
+}
