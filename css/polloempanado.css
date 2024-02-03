@@ -102,3 +102,51 @@ p-table {
     width: 100% !important;
     height: 500px !important;
 }
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tabletas */
+    #img1{
+        width: 90%;
+        float:none !important;
+        margin-top: 0 !important
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1400px) {
+    /* Estilos para tabletas */
+    #img1{
+        width: 90%;
+        float:none !important;
+        margin-top: 0 !important;
+        margin-bottom: 5 !important;
+    }
+}
+
+@media only screen and (width>1400px) {
+    #wrapper {
+        width: 80% /* redefino el ancho de wrapper para moviles */
+    }
+    img {
+        width: 55%
+    }
+}
+
+
+@media only screen and (width>767px) {
+    #wrapper {
+        width: 80% /* redefino el ancho de wrapper para moviles */
+    }
+    img {
+        width: 55%
+    }
+}
+
+@media only screen and (width<768px) {
+    /* Estilos para tabletas */
+    #img1{
+        width: 100%;
+        float:none !important;
+        margin-top: 0 !important
+    }
+}
